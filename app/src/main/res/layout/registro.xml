@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            />
+
+        <EditText
+            android:id="@+id/IdNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="50dp"
+            android:hint="Nombre"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/IdCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="50dp"
+            android:hint="Correo"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/Idcontrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="50dp"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/Idtelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="50dp"
+            android:hint="Telefono"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/IdNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="50dp"
+            android:hint="Nacimiento"
+            android:ems="10"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:text="Registrarse" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="30dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="¿Ya tienes cuenta?" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="50dp"
+                android:text=" Iniciar Sesion" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
